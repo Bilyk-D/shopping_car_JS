@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__title">
+                <a href="/">Home</a>
+            </div>
+            <div class="header__icon">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+                </svg>
+                <span class="header__amount">0</span>
+            </div>
+        </header>
+        <div id="selected-item">
+            Content in template file
+        </div>
+    </div>
+    <div class="cart">
+        <h1 class="cart__title">Shopping Cart</h1>
+        <div class="cart__body"> show item here</div>
+        <div class="cart__resum resum-cart">Total cost: $<span class="resum-cart__price"></span> </div>
+        <div class="cart__buttons buttons-cart">
+            <button class="buttons-cart__close">CLOSE</button>
+            <button class="buttons-cart__checkout">Check Out</button>
+        </div>
+    </div>
+
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
